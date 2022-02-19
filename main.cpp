@@ -123,11 +123,10 @@ void two(long number)              // 345678
    ////////////////////////////////////////////////
    // Insert code here to change the variables in main()
 
-    const char * variables = (char *)&bow;
-    
     
     // change text in main() to "*main**"
     /////////////////////////////////////////////////////////////////////////////
+    const char * variables = (char *)&bow;
     
     while (string(variables) != "*MAIN**") 
       variables++;
